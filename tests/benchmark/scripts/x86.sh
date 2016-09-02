@@ -1,0 +1,11 @@
+mkdir benchmark_x86
+./bin/benchmark_cvtcolor 2>benchmark_x86/cvtcolor_x86.txt
+./bin/benchmark_bilateral 2>benchmark_x86/bilateral_x86.txt
+./bin/benchmark_boxfilter 2>benchmark_x86/boxfilter_x86.txt
+./bin/benchmark_filter2d 2>benchmark_x86/filter2d_x86.txt
+./bin/benchmark_gaussblur 2>benchmark_x86/gaussblur_x86.txt
+./bin/benchmark_warpaffine 2>benchmark_x86/warpaffine_x86.txt
+./bin/benchmark_resize 2>benchmark_x86/resize_x86.txt
+./bin/benchmark_convertto 2>benchmark_x86/convertto_x86.txt
+./bin/benchmark_crop 2>benchmark_x86/crop_x86.txt
+./bin/benchmark_integral 2>benchmark_x86/integral_x86.txt

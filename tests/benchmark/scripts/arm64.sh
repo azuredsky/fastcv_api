@@ -1,0 +1,11 @@
+mkdir benchmark_arm64
+./bin/benchmark_cvtcolor 2>benchmark_arm64/cvtcolor_arm64.txt
+./bin/benchmark_bilateral 2>benchmark_arm64/bilateral_arm64.txt
+./bin/benchmark_boxfilter 2>benchmark_arm64/boxfilter_arm64.txt
+./bin/benchmark_filter2d 2>benchmark_arm64/filter2d_arm64.txt
+./bin/benchmark_gaussblur 2>benchmark_arm64/gaussblur_arm64.txt
+./bin/benchmark_warpaffine 2>benchmark_arm64/warpaffine_arm64.txt
+./bin/benchmark_resize 2>benchmark_arm64/resize_arm64.txt
+./bin/benchmark_convertto 2>benchmark_arm64/convertto_arm64.txt
+./bin/benchmark_crop 2>benchmark_arm64/crop_arm64.txt
+./bin/benchmark_integral 2>benchmark_arm64/integral_arm64.txt

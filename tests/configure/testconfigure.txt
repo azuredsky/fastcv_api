@@ -1,0 +1,9 @@
+＃如果是要执行某个测试用例，则在命令行中加上　-gtest_filter=testcasename.* (其中testcasename表示测试用例的名称，例如：-gtest_filter=BilateralFilterParamTest.*)
+[BilateralFilterTest]
+height:5 width:5 diameter:3 color:0.5 space:0.5 spadding:7 dpadding:11
+[ReadImageTest]
+imageName:/home/liuping/net.png
+[EncodeDecodeTest]
+imageName:/home/liuping/net.png
+
+

@@ -1,0 +1,11 @@
+mkdir benchmark_armv7
+./bin/benchmark_cvtcolor 2>benchmark_armv7/cvtcolor_armv7.txt
+./bin/benchmark_bilateral 2>benchmark_armv7/bilateral_armv7.txt
+./bin/benchmark_boxfilter 2>benchmark_armv7/boxfilter_armv7.txt
+./bin/benchmark_filter2d 2>benchmark_armv7/filter2d_armv7.txt
+./bin/benchmark_gaussblur 2>benchmark_armv7/gaussblur_armv7.txt
+./bin/benchmark_warpaffine 2>benchmark_armv7/warpaffine_armv7.txt
+./bin/benchmark_resize 2>benchmark_armv7/resize_armv7.txt
+./bin/benchmark_convertto 2>benchmark_armv7/convertto_armv7.txt
+./bin/benchmark_crop 2>benchmark_armv7/crop_armv7.txt
+./bin/benchmark_integral 2>benchmark_armv7/integral_armv7.txt
